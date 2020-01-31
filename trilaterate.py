@@ -1,12 +1,5 @@
 
 import math
-import sys
-
-def main(argv):
-    numargs = sys.argv[0]
-
-
-
 
 def trilaterate(ax, ay, adist, bx, by, bdist, cx, cy, cdist):
     abdist = math.sqrt(math.pow((bx-ax), 2) + math.pow((by-ay),2))
